@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: 개발을 좋아합니다.
+subtitle: 개발을 좋아하는 이황로입니다.
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-
     <p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<a href="mailto:hwangro123@gmail.com">hwangro123@gmail.com</a></p>
     <p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<a href="tel:010-4503-7743">010-4503-7743</a></p>
     <p><i class="fa fa-link" aria-hidden="true"></i>&nbsp;<a href="https://hwangrolee.github.io" target="_blank">https://hwangrolee.github.io</a></p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-새로움을 즐기고 어려움을 극복하면서 개발을 하고 있습니다.<br>
+새로움을 즐기고 어려움을 극복하면서 개발을 하고 있습니다.<br><br>
 
 스타트업에서 웹 프론트엔드/백엔드 업무 모두 경험을 했고 수많은 새로운 기능을 개발했으며 버그를 수정해왔습니다. 그리고 서비스가 불안정할 때 MySQL, Redis 등 시스템 퍼포먼스를 개선하여 안정화 시킨 경험이 있고 제가 좋아하는 업무입니다.
 <br><br>
