@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "2019 Google Study Jam - 두번째이야기: Hello Node Kubernetes"
+title: 2019 Google Study Jam - 두번째이야기 Hello Node Kubernetes
 date: 2019-01-10
-description: Google Study Jam 두번째이야기 Hello Node Kubernetes - kubenetes의 기본을 살펴보는 시간이었습니다.
-categories: GCP
+description: 2019 Google Study Jam - 두번째이야기 Hello Node Kubernetes
+categories: Kubernetes
 giscus_comments: true
 sitemap:
   changefreq: daily
