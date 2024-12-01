@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Hwangro Lee",
+    "label": "Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "hwangro123@gmail.com",
+    "phone": "010-4503-7743",
+    "url": "https://hwangrolee.github.io/",
+    "summary": "스타트업에서 웹 프론트엔드/백엔드 업무 모두 경험을 했고 수많은 새로운 기능을 개발했으며 버그를 수정해왔습니다. 그리고 서비스가 불안정할 때 MySQL, Redis 등 시스템 퍼포먼스를 개선하여 안정화 시킨 경험이 있고 제가 좋아하는 업무입니다.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -16,185 +16,129 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Linkedin",
+        "username": "hwangrolee",
+        "url": "https://www.linkedin.com/in/hwangro-lee-68082a185/"
+      },
+      {
+        "network": "Github",
+        "username": "hwangrolee",
+        "url": "https://github.com/hwangrolee"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Metric Studio Inc. (NNT)",
+      "position": "Technical Lead",
+      "startDate": "2023-05",
+      "endDate": "현재",
+      "summary": "<b>NNT Tech 팀 테크리드, 팀 빌딩</b><br><br>1. 프로젝트 PM , 개발 자문<br>&ensp;- Hyundai DDM 2.0 (w/ INNOCEAN)<br>&ensp;- Innocean Ads Hub 1차<br>&ensp;- LGU+ Marketing Data Warehouse<br>&ensp;- JYPThreeSix 커머스 데이터 통합 및 매출 대시보드<br><br>2. NNT Consulting 서포트<br>&ensp;- Content SEO 를 위한 서브폴더/서브 도메인 워드프레스 서버 셋업 가이드<br>&ensp;- 리포트 자동화 파이프라인 구축<br>&ensp;- GCP/AWS 기반 서버리스 아키텍처 설계 및 개발<br><br>3. 시스템 관리 및 사용 기술<br>&ensp;- 클라우드 비용 절감을 위한 퍼포먼스 개선<br>&ensp;- Cloud Quotas, Cloud Billing Budget<br>&ensp;- BigQuery 쿼리 개선<br>&ensp;- Python, Java, Spring boot, Airflow<br>&ensp;- 크롤링(Selenium, Playwrite)",
+      "highlights": []
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Tapas Entertainment(Kakao Entertainment)",
+      "position": "Software Developer",
+      "startDate": "2019-06",
+      "endDate": "2023-03",
+      "summary": "<b>글로벌 웹툰 서비스</b><br><b>재무/잉크/결제 업무 팀장</b><br><b>대부분의 기능 개발을 주도적으로 개발 진행</b><br><br>1. Spring, Java 기반 서버 개발<br>&ensp;- spring, java, MySQL, MongoDB, Redis, AWS(ec2, s3, rds, mq, etc...), 등<br>&ensp; - 다양한 피처 개발 및 버그 수정, 퍼포먼스 개선<br><br>2. TDD<br>&ensp;- Spock framework 을 이용한 테스트코드 작성<br>&ensp;- 새로운 프로젝트에 Junit5 도입.<br>&ensp;-대부분의 코드 리뷰 적극적으로 참여(잠재적 버그 발견, 코드 품질 향상)<br><br>3. 웹 프론트엔드 개발<br>&ensp;- jquery, jacascript, html, css, grunt<br>&ensp;- 메인 화면 개편<br>&ensp;- 대시보드 전체 개편(리드)<br>&ensp;- 전반적인 웹 개발<br><br>4. 트래픽 장애 해결을 위한 디비 쿼리 개선<br>&ensp;- 슬로 쿼리 튜닝<br>&ensp;- 쿼리 용도에 따라 isolation level 을 조정<br>&ensp;- 트랜잭션을 리팩토링하여 퍼포먼스 향상시킴<br>&ensp;- 쿼리 용도에 따라 캐시 처리 및 리플리카 디비로 전환<br><br>5. 레디스 최적화<br>&ensp;- 캐시의 용도를 파악 후 TTL 조정<br>&ensp;- 블락을 유발하는 명령어 개선<br><br>6 새로운 기술 도입<br>&ensp;- 임시저장 기능을 위한 MongoDB 도입<br>&ensp;- redis pub/sub 단점을 보완하기 위해 RabbitMQ 도입",
+      "highlights": []
+    },
+    {
+      "name": "(주)엑스트라이버",
+      "position": "Software Developer",
+      "startDate": "2018-02",
+      "endDate": "2018-10",
+      "summary": "<b>패키지 여행상품을 모아 볼 수 있는 메타 서비스</b><br><br>1. Tripstore 앱 관리 어드민 개발 및 유지보수<br>&ensp;- 어드민 리뉴얼(AngularJS 4 > Freemarker)<br>&ensp;- 홈 카테고리 관리 기능 구현<br>&ensp;- 태그 관리 기능 구현<br>&ensp;- 프로모션 관리 기능 구현<br>&ensp;- 여행상품에 적용되는 다양한 이벤트 관리 기능 구현(특가 등)<br>&ensp;- 기타 다양한 기능 구현<br><br>2. Tripstore 앱 신규기능 API 개발<br>&ensp;- 홈카테고리 API 구현<br>&ensp;- 기타 API 구현<br><br>3. 스케쥴러 서버 구현<br>&ensp;- 예약시 어드민페이지에 알람<br>&ensp;- 평일 예약현황을 이메일로 전송<br>&ensp;- 태그 및 프로모션, 특가 적용 및 해제 기능<br><br>4. 페이스북 및 크리테오 리타게팅 모듈 개발<br><br>5. 개발환경 <br>&ensp;- Spring boot + Kotlin 기반 서버 프로그래밍<br>&ensp;- Spring boot batch + Quartz 조합으로 배치 및 스케쥴러 구현<br>&ensp; - AWS Aurora DB로 데이터 관리<br>&ensp; - AWS ElasticCache로 캐시관리",
+      "highlights": []
+    },
+    {
+      "name": "Desire Lab",
+      "position": "Software Developer",
+      "startDate": "2017-05",
+      "endDate": "2017-10",
+      "summary": "<b>브랜드 의류를 모아 볼 수 있는 메타서비스</b><br><br>1. YOIL 앱 관리 어드민 개발 및 유지보수<br>&ensp;- 크롤링한 상품 데이터를 자동으로 가공하도록 구현<br>&ensp;- 어드민 기능 개선<br>&ensp;- 커머스 관리용 어드민 개발<br><br>2. YOIL 앱 신규 기능 API 개발<br><br>3. 카테고리 체계도 재정의<br>&ensp;- neo4j를 활용하여 카테고리를 그래프형태로 재정의<br><br>4. 페이스북 및 크리테오 리타게팅 모듈 개발<br><br>5. MSA 기반으로 개발<br><br>6. 개발환경<br>&ensp;- Spring boot + Java 기반 서버 프로그래밍<br>&ensp;- AWS Aurora DB, MongoDB, DynamoDB로 데이터 관리<br>&ensp;-AWS ElasticCache로 캐쉬 관리<br>&ensp;- EC2 + ELB + Ansible + Jenkins 기반 서버 운영 및 배포",
+      "highlights": []
+    },
+    {
+      "name": "DSMentoring",
+      "position": "Software Developer",
+      "startDate": "2016-02",
+      "endDate": "2017-03",
+      "summary": "<b>1.LDAP성능관리 솔루션</b><br>&ensp;- 직원, 권한관리, 로그, 알림, 서버 상태 확인이 가능한 솔루션<br>&ensp;- backend, frontend 개발<br>&ensp;1) 대부분의 CURD및 frontend영역 개발<br>&ensp;- 실시간 모니터닝 기능 구현<br>&ensp;1) Websocket로 실시간 모니터링 데이터 통신<br>&ensp;2) D3를 이용하여 실시간 모니터링 뷰 구현<br>&ensp;- 개발환경<br>&ensp;1) Framework: Spring Framework 4.x, AngularJS<br>&ensp;2) Database: MariaDB, Redis<br><br><b>2. 전자정부 디렉토리 사업</b><br>&ensp;- LDAP을 활용한 직원 및 조직관리 구<br>&ensp;- LDAP을 활용한 직원 및 임시 조직관리 구현<br>&ensp;1) 직원 권한에 따라 소속직원 추가,수정, 삭제 구현<br>&ensp;2) 임시조직 생성, 수정, 삭제 구현<br>&ensp;- LDAP을 기반으로 조직도 구현<br>&ensp;1) 사용자 권한에 따라 자신이 속한 조직도만 보이도록 구현 <br>&ensp;- LDAP기반, 직원 권한에 따른 검색기능 구현 <br>&ensp;1) 사용자 권한에 따라 기관 및 소속직원만 검색되도록 구현 <br>&ensp;- 개발환경<br>&ensp;1) Framework: 전자정부프레임워크<br>&ensp;2) Database: Tibero, LDAP <br>&ensp;3) Was: Jeus",
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "조선대학교",
+      "area": "정보통신공학과",
+      "studyType": "학사",
+      "startDate": "2009.03",
+      "endDate": "2016.2"
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
+      "name": "언어",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "keywords": ["Java", "Python", "Javascript", "CSS", "HTML5"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "프레임워크",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Spring Boot"]
+    },
+    {
+      "name": "데이터베이스",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["MySQL", "MongoDB", "Redis", "BigQuery"]
+    },
+    {
+      "name": "테스트",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["JUnit5", "Spock Framework"]
+    },
+    {
+      "name": "인프라 - AWS",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["EC2", "S3", "API Gateway", "Lambda", "RDS", "CloudWatch", "CloudFront", "MQ 등"]
+    },
+    {
+      "name": "인프라 - GCP",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Compute Engine", "Cloud Storage", "Cloud Run Function", "Cloud SQL", "Cloud Logging", "Cloud Task 등"]
+    },
+    {
+      "name": "기타",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": ["Airflow", "Docker", "Crawler(Selenium, Playwright)"]
     }
   ],
+  "languages": [],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Hard Skill",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "keywords": ["Kubernetes", "Airflow", "Elastic Search", "Data Engineering"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Soft Skill",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["Teamwork", "Collaboration", "Communication Skills", "Time Management", "Leadership"]
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "references": [],
+  "projects": []
 }
