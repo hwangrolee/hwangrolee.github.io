@@ -46,4 +46,4 @@ exchange는 **Full Node** 와 **Solidity Node**를 배포하기 위해 필요합
 
 ### Mainnet & Testnet
 
-TRON 네트워크는 Shasta라는 테스트넷뿐만 아니라 Mainnet을 운영중입니다. Mainnet blockchain explorer는 [여기](https://tronscan.org/#/)를 통해 접속할 수있습니다. Shasta blockchain explorer는 [여기](https://explorer.shasta.trongrid.io/)를 통해 접속할 수 있습니다. 사용자는 Shasta blockchain explorer 사이트에 접속해서 Testnet TRX를 받기위한 Testnet wallet을 열 수 있습니다. [Github](https://github.com/tronprotocol/tron-deployment)을 통해 찾을 수 있는 **Mainnet**과 **Testnet** 설정파일은 node를 세팅할때 필용합니다.
+TRON 네트워크는 Shasta라는 테스트넷뿐만 아니라 Mainnet을 운영중입니다. Mainnet blockchain explorer는 [여기](https://tronscan.org/#/)를 통해 접속할 수있습니다. Shasta blockchain explorer는 [여기](https://shasta.tronex.io/)를 통해 접속할 수 있습니다. 사용자는 Shasta blockchain explorer 사이트에 접속해서 Testnet TRX를 받기위한 Testnet wallet을 열 수 있습니다. [Github](https://github.com/tronprotocol/tron-deployment)을 통해 찾을 수 있는 **Mainnet**과 **Testnet** 설정파일은 node를 세팅할때 필요합니다.
