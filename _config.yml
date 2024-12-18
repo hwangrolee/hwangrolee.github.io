@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: 이황로의 포트폴리오 # the website title (if blank, full name will be used instead)
 first_name: Hwangro
 middle_name:
 last_name: Lee
@@ -12,7 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: 
 keywords: 포트폴리오, portfolio, backend engineer, 백엔드, 백엔드 개발자, 개발자 블로그 # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: prof_pic.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://hwangrolee.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
