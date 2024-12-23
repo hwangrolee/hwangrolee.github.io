@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hwangrolee.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://hwangrolee.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-12-18T09:53:15+00:00</updated><id>https://hwangrolee.github.io/feed.xml</id><title type="html">이황로의 포트폴리오</title><subtitle>개발을 좋아하는 이황로입니다. 스타트업에서 웹 프론트엔드/백엔드 업무 모두 경험을 했고 수많은 새로운 기능을 개발했으며 버그를 수정해왔습니다. 그리고 서비스가 불안정할 때 MySQL, Redis 등 시스템 퍼포먼스를 개선하여 안정화 시킨 경험이 있고 제가 좋아하는 업무입니다. </subtitle><entry><title type="html">MySQL 트랜잭션 격리수준 Isolation level 알아보기</title><link href="https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/" rel="alternate" type="text/html" title="MySQL 트랜잭션 격리수준 Isolation level 알아보기"/><published>2024-12-15T00:00:00+00:00</published><updated>2024-12-15T00:00:00+00:00</updated><id>https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</id><content type="html" xml:base="https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/"><![CDATA[<p>트랜잭션의 격리 수준이란 여러 트랜잭션이 동시에 처리될 때 다른 트랜잭션에서 변경이 일어났을 때 해당 데이터를 또 다른 트랜잭션에서 조회가 가능하게 할지를 허용할지 말지를 결정하는 것이다. 격리 수준에는 총 4개가 있다.</p> <ul> <li>READ UNCOMMITTED</li> <li>READ COMMITTED</li> <li>REPEATABLE READ</li> <li>SERIALIZABLE 위 4개 중 첫번째인 READ UNCOMMITTED는 격리수준이 가장 낮고 SERIALIZABLE 은 격리 수준이 가장 높다.</li> </ul> <h2 id="1-read-uncommitted">1. READ UNCOMMITTED</h2> <p>트랜잭션 격리수준 중 가장 낮은 단계로 성능이 가장 좋지만 다른 트랜잭션에서 커밋되지 않은 데이터를 읽어 올 수 있기 때문에 잘 못 사용할 경우 데이터 정합성에 큰 이슈가 발생 할 수 있다.</p> <p>Transaction_A 에서 INSERT, UPDATE, DELETE 쿼리를 실행 후 아직 커밋하지 않았지만 Transaction_B 에서 SELECT 쿼리를 실행시키게 되면 INSERT, UPDATE, DELETE 쿼리 결과가 보이게 된다. 이 때 Transaction_A 는 COMMIT 하지 않고 ROLLBACK 을 하게 되면 Transaction_B 는 실제 데이터베이스에 없는 데이터를 읽게 된 것이며 이를 더티리드(Dirty read) 라고 한다.</p> <p>트랜잭션에서 INSERT, UPDATE, DELETE 쿼리를 실행할 경우 커밋하기 전에는 Undo 영역에 변경 전 데이터를 저장하고 레코드의 값을 변경한다. 이 때 Rollback 을 하게 되면 Undo 영역에 있던 데이터를 레코드로 복원하게 된다.</p> <p>READ_UNCOMMITTED 는 레코드에 저장된 값을 가저오기 때문에 롤백이 된 데이터를 읽어 올 수 있다.</p> <p>READ UNCOMMITTED 는 정합성 이슈가 발생하지 않는 SELECT 쿼리에서만 사용할 것을 권장하며 READ UNCOMMITTED로 읽은 데이터로 INSERT, UPDATE, DELETE 에 사용하지 않도록 주의해야 한다.</p> <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- [SESSION_1]</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://hwangrolee.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://hwangrolee.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-12-23T09:03:49+00:00</updated><id>https://hwangrolee.github.io/feed.xml</id><title type="html">이황로의 포트폴리오</title><subtitle>개발을 좋아하는 이황로입니다. 스타트업에서 웹 프론트엔드/백엔드 업무 모두 경험을 했고 수많은 새로운 기능을 개발했으며 버그를 수정해왔습니다. 그리고 서비스가 불안정할 때 MySQL, Redis 등 시스템 퍼포먼스를 개선하여 안정화 시킨 경험이 있고 제가 좋아하는 업무입니다. </subtitle><entry><title type="html">MySQL 실시간 쿼리 확인하기</title><link href="https://hwangrolee.github.io/blog/MySQL-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%BF%BC%EB%A6%AC-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="MySQL 실시간 쿼리 확인하기"/><published>2024-12-22T00:00:00+00:00</published><updated>2024-12-22T00:00:00+00:00</updated><id>https://hwangrolee.github.io/blog/MySQL-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%BF%BC%EB%A6%AC-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0</id><content type="html" xml:base="https://hwangrolee.github.io/blog/MySQL-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%BF%BC%EB%A6%AC-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/"><![CDATA[<p>많은 서비스에서 Mysql 을 메인 디비로 사용하여 서비스를 개발하고 있습니다.</p> <p>Mysql 은 RDB 이며 Transaction 단위로 쿼리를 실행하게 됩니다.</p> <p>Transaction은 ACID 특성에 의해 데이터를 관리하기 때문에 저장된 데이터가 신뢰성있다는 것을 확신 할 수 있습니다. 하지만 Transaction 에 의해 락이 발생하고 락에 의해 쿼리에 지연이 발생하면서 자연스레 서비스에 장애를 발생킵니다.</p> <p>쿼리 락 뿐만 아니라 DDL 명령어에 의해 테이블을 락을 발생시키기도 합니다. 그렇기 때문에 DDL 명령어를 실행 시킬 때에는 테이블 특성에 따라 모니터링이 꼭 필요합니다.</p> <p>쿼리 락 혹은 DDL 명령어에 의해 락이 발생되면 해당 테이블과 연관된 트랜잭션은 락에 의해 쿼리가 대기하게 되고 이로 인해 서비스는 장애를 발생시키게 됩니다.</p> <p>개발자는 위 상황에서 락을 발생시키는 쿼리를 찾고 실행 중인 쿼리를 중지시킬 필요가 있습니다.</p> <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_id</span>
+<span class="p">,</span>  <span class="n">aa</span><span class="p">.</span><span class="n">trx_mysql_thread_id</span><span class="p">,</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_state</span>
+<span class="p">,</span>  <span class="n">bb</span><span class="p">.</span><span class="n">id</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="k">user</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="k">host</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="n">db</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="n">command</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="nb">time</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="k">state</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="n">info</span>
+<span class="p">,</span>  <span class="n">aa</span><span class="p">.</span><span class="n">trx_started</span><span class="p">,</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_requested_lock_id</span><span class="p">,</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_wait_started</span><span class="p">,</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_weight</span>
+<span class="k">from</span> <span class="n">information_schema</span><span class="p">.</span><span class="n">INNODB_TRX</span> <span class="n">aa</span>
+  <span class="k">inner</span> <span class="k">join</span> <span class="n">information_schema</span><span class="p">.</span><span class="n">PROCESSLIST</span> <span class="n">bb</span> <span class="k">on</span> <span class="p">(</span><span class="n">bb</span><span class="p">.</span><span class="n">id</span> <span class="o">=</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_mysql_thread_id</span><span class="p">)</span>
+<span class="c1">-- where aa.trx_state = 'LOCK WAIT'</span>
+<span class="c1">-- where bb.info is null</span>
+<span class="c1">-- where  bb.time &gt; 1</span>
+<span class="c1">-- and  (bb.time &gt;= 5 or aa.trx_state = 'LOCK WAIT')</span>
+<span class="c1">-- order by bb.time desc;</span>
+<span class="k">order</span> <span class="k">by</span> <span class="n">aa</span><span class="p">.</span><span class="n">trx_state</span><span class="p">,</span> <span class="n">bb</span><span class="p">.</span><span class="nb">time</span> <span class="k">desc</span><span class="p">;</span>
+</code></pre></div></div> <p>위 쿼리를 통해 현재 실행 중인 쿼리를 알 수 있으며 Kill 명령어를 통해 락을 유발하는 쿼리를 중지시켜야만 합니다.</p> <h2 id="정리">정리</h2> <ul> <li>DDL, DML 을 실행 전에는 해당 명령어에 의해 디비에 락이 발생시킬 지 사이드 이펙트를 생각 후에 명령어를 실행시켜야 한다.</li> <li>DDL, DML 을 실행 후 information_schema.INNODB_TRX 를 통해서 현재 실행 중인 쿼리를 모니터링하여 쿼리가 밀리는 현상이 발생하면 곧 바로 락을 유발시킨 쿼리를 중단한다.</li> </ul>]]></content><author><name></name></author><category term="MySQL"/><category term="mysql,"/><category term="트랜잭션,"/><category term="쿼리,"/><category term="Query,"/><category term="SQL,"/><category term="information_schema"/><summary type="html"><![CDATA[MySQL에서 실시간으로 실행 중인 쿼리를 확인하는 방법을 알아봅니다.]]></summary></entry><entry><title type="html">MySQL 트랜잭션 격리수준 Isolation level 알아보기</title><link href="https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/" rel="alternate" type="text/html" title="MySQL 트랜잭션 격리수준 Isolation level 알아보기"/><published>2024-12-15T00:00:00+00:00</published><updated>2024-12-15T00:00:00+00:00</updated><id>https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</id><content type="html" xml:base="https://hwangrolee.github.io/blog/MySQL-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B2%A9%EB%A6%AC%EC%88%98%EC%A4%80-Isolation-level-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/"><![CDATA[<p>트랜잭션의 격리 수준이란 여러 트랜잭션이 동시에 처리될 때 다른 트랜잭션에서 변경이 일어났을 때 해당 데이터를 또 다른 트랜잭션에서 조회가 가능하게 할지를 허용할지 말지를 결정하는 것이다. 격리 수준에는 총 4개가 있다.</p> <ul> <li>READ UNCOMMITTED</li> <li>READ COMMITTED</li> <li>REPEATABLE READ</li> <li>SERIALIZABLE 위 4개 중 첫번째인 READ UNCOMMITTED는 격리수준이 가장 낮고 SERIALIZABLE 은 격리 수준이 가장 높다.</li> </ul> <h2 id="1-read-uncommitted">1. READ UNCOMMITTED</h2> <p>트랜잭션 격리수준 중 가장 낮은 단계로 성능이 가장 좋지만 다른 트랜잭션에서 커밋되지 않은 데이터를 읽어 올 수 있기 때문에 잘 못 사용할 경우 데이터 정합성에 큰 이슈가 발생 할 수 있다.</p> <p>Transaction_A 에서 INSERT, UPDATE, DELETE 쿼리를 실행 후 아직 커밋하지 않았지만 Transaction_B 에서 SELECT 쿼리를 실행시키게 되면 INSERT, UPDATE, DELETE 쿼리 결과가 보이게 된다. 이 때 Transaction_A 는 COMMIT 하지 않고 ROLLBACK 을 하게 되면 Transaction_B 는 실제 데이터베이스에 없는 데이터를 읽게 된 것이며 이를 더티리드(Dirty read) 라고 한다.</p> <p>트랜잭션에서 INSERT, UPDATE, DELETE 쿼리를 실행할 경우 커밋하기 전에는 Undo 영역에 변경 전 데이터를 저장하고 레코드의 값을 변경한다. 이 때 Rollback 을 하게 되면 Undo 영역에 있던 데이터를 레코드로 복원하게 된다.</p> <p>READ_UNCOMMITTED 는 레코드에 저장된 값을 가저오기 때문에 롤백이 된 데이터를 읽어 올 수 있다.</p> <p>READ UNCOMMITTED 는 정합성 이슈가 발생하지 않는 SELECT 쿼리에서만 사용할 것을 권장하며 READ UNCOMMITTED로 읽은 데이터로 INSERT, UPDATE, DELETE 에 사용하지 않도록 주의해야 한다.</p> <div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">-- [SESSION_1]</span>
 <span class="k">BEGIN</span><span class="p">;</span>
 <span class="k">SET</span> <span class="k">SESSION</span> <span class="n">TRANSACTION</span> <span class="k">ISOLATION</span> <span class="k">LEVEL</span> <span class="k">READ</span> <span class="k">UNCOMMITTED</span><span class="p">;</span>
 <span class="k">SELECT</span> <span class="o">*</span> <span class="k">FROM</span> <span class="k">user</span><span class="p">;</span>
@@ -262,121 +274,4 @@ rdb-save-incremental-fsync <span class="o">[</span> <span class="nb">yes</span> 
     </span><span class="p">]</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div>]]></content><author><name></name></author><category term="Elastic"/><category term="Search"/><summary type="html"><![CDATA[Elasticsearch Match Phrase Prefix Query에 대해서 알아보기]]></summary></entry><entry><title type="html">Elasticsearch Fuzziness에 대해서 알아보기</title><link href="https://hwangrolee.github.io/blog/Elasticsearch-Fuzziness%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/" rel="alternate" type="text/html" title="Elasticsearch Fuzziness에 대해서 알아보기"/><published>2019-05-04T00:00:00+00:00</published><updated>2019-05-04T00:00:00+00:00</updated><id>https://hwangrolee.github.io/blog/Elasticsearch-Fuzziness%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0</id><content type="html" xml:base="https://hwangrolee.github.io/blog/Elasticsearch-Fuzziness%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/"><![CDATA[<p>Match Query를 공부 중 Fuzziness 개념을 알게 되었습니다.</p> <p>일부쿼리 및 API는 <em>fuzziness</em> 파라미터를 사용하여 정확하지 않은 퍼지매칭을 허용합니다.</p> <p><strong>text</strong>혹은 <strong>keyword</strong>쿼리시 <strong>fuzziness</strong>는 Levenshtein distance로 해석됩니다. <em>Levenshtein distance</em> 단어, 혹은 문장과 같은 string 간의 형태적 유사성을 정의하는 방법입니다. 하지만 한글처럼 각글자가 초/중/종성으로 이루어진 언어를 고려한 방법이 아니라고 합니다. 참고하세요</p> <p><strong>fuzziness</strong>의 허용되는 최대 거리 Levenshtein Edit Distance (또는 편집 횟수)는 <em>0</em>,<em>1</em>,<em>2</em> 입니다.</p> <p><em>AUTO</em> 는 용어의 길이에 따라 편집거리를 생성합니다.</p> <p><em>Fuzziness</em> 를 사용한 검색은 더 공부해봐야 겠지만 보통 <em>AUTO</em>만으로도 충분한 기대치를 얻을 수 있는 것 같습니다.</p> <h4 id="example1">example1</h4> <blockquote> <p><em>AUTO</em>를 테스트해봅니다.</p> </blockquote> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="s2">"localhost:9200/sales-records/_search?pretty"</span> <span class="nt">-H</span> <span class="s2">"Content-Type:application/json"</span> <span class="nt">-d</span> <span class="s1">'
-{
-  "query": {
-    "match": {
-      "message": {
-        "query":"cloth",
-        "fuzziness":"AUTO"
-      }
-    }
-  },
-  "size": 2
-}'</span>
-</code></pre></div></div> <p><em>AUTO</em> 로 하니 결과가 나오질 않았네요</p> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"took"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"timed_out"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"_shards"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"successful"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"skipped"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"failed"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"hits"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"relation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"eq"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"max_score"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"hits"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> <h4 id="example2">example2</h4> <blockquote> <p><em>cloth</em> 만 입력후 <em>fuzziness</em>를 2로 입력하니 clothes에 대한 결과물을 받아왔습니다.</p> </blockquote> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="s2">"localhost:9200/sales-records/_search?pretty"</span> <span class="nt">-H</span> <span class="s2">"Content-Type:application/json"</span> <span class="nt">-d</span> <span class="s1">'
-{
-  "query": {
-    "match": {
-      "message": {
-        "query":"cloth",
-        "fuzziness":"2"
-      }
-    }
-  },
-  "size": 2
-}'</span>
-</code></pre></div></div> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"took"</span><span class="p">:</span><span class="w"> </span><span class="mi">13</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"timed_out"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"_shards"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"successful"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"skipped"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"failed"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="nl">"hits"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"total"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">10000</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"relation"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gte"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"max_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.6643744</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"hits"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-      </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"_index"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sales-records"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_doc"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Nn9aY2oBml718jk9tMLH"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.6643744</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_source"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"total_profit"</span><span class="p">:</span><span class="w"> </span><span class="mf">566589.6</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"sales_channel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Offline"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">800003659</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"units_sold"</span><span class="p">:</span><span class="w"> </span><span class="mi">7715</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"tags"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"_dateparsefailure"</span><span class="p">],</span><span class="w">
-          </span><span class="nl">"total_revenue"</span><span class="p">:</span><span class="w"> </span><span class="mf">843095.2</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"unit_cost"</span><span class="p">:</span><span class="w"> </span><span class="mf">35.84</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Cote d'Ivoire"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_priority"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"ship_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4/6/2016"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"unit_price"</span><span class="p">:</span><span class="w"> </span><span class="mf">109.28</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"total_cost"</span><span class="p">:</span><span class="w"> </span><span class="mf">276505.6</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"item_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clothes"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"region"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sub-Saharan Africa"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"host"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c5ceb9b17956"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2/19/2016"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/config-dir/1500000 Sales Records.csv"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sub-Saharan Africa,Cote d'Ivoire,Clothes,Offline,C,2/19/2016,800003659,4/6/2016,7715,109.28,35.84,843095.20,276505.60,566589.60</span><span class="se">\r</span><span class="s2">"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@timestamp"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2016-06-04T00:00:00.000Z"</span><span class="w">
-        </span><span class="p">}</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="p">{</span><span class="w">
-        </span><span class="nl">"_index"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sales-records"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"_doc"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"4n9aY2oBml718jk9v9SH"</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_score"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.6643744</span><span class="p">,</span><span class="w">
-        </span><span class="nl">"_source"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-          </span><span class="nl">"total_profit"</span><span class="p">:</span><span class="w"> </span><span class="mf">621228.96</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"sales_channel"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Offline"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">614078938</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"units_sold"</span><span class="p">:</span><span class="w"> </span><span class="mi">8459</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"tags"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"_dateparsefailure"</span><span class="p">],</span><span class="w">
-          </span><span class="nl">"total_revenue"</span><span class="p">:</span><span class="w"> </span><span class="mf">924399.52</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"unit_cost"</span><span class="p">:</span><span class="w"> </span><span class="mf">35.84</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"country"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Cote d'Ivoire"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_priority"</span><span class="p">:</span><span class="w"> </span><span class="s2">"H"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"ship_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11/28/2011"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"unit_price"</span><span class="p">:</span><span class="w"> </span><span class="mf">109.28</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"total_cost"</span><span class="p">:</span><span class="w"> </span><span class="mf">303170.56</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"item_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Clothes"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"region"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sub-Saharan Africa"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"host"</span><span class="p">:</span><span class="w"> </span><span class="s2">"c5ceb9b17956"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"order_date"</span><span class="p">:</span><span class="w"> </span><span class="s2">"11/17/2011"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"path"</span><span class="p">:</span><span class="w"> </span><span class="s2">"/config-dir/1500000 Sales Records.csv"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"message"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sub-Saharan Africa,Cote d'Ivoire,Clothes,Offline,H,11/17/2011,614078938,11/28/2011,8459,109.28,35.84,924399.52,303170.56,621228.96</span><span class="se">\r</span><span class="s2">"</span><span class="p">,</span><span class="w">
-          </span><span class="nl">"@timestamp"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2019-04-28T09:50:52.295Z"</span><span class="w">
-        </span><span class="p">}</span><span class="w">
-      </span><span class="p">}</span><span class="w">
-    </span><span class="p">]</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> <p>상황에 따라 “AUTO” 혹은 0,1,2 를 선택하여 진행하시면 될 것 같습니다.</p>]]></content><author><name></name></author><category term="Elastic"/><category term="Search"/><summary type="html"><![CDATA[Elasticsearch Fuzziness에 대해서 알아보기]]></summary></entry></feed>
+</span></code></pre></div></div>]]></content><author><name></name></author><category term="Elastic"/><category term="Search"/><summary type="html"><![CDATA[Elasticsearch Match Phrase Prefix Query에 대해서 알아보기]]></summary></entry></feed>
