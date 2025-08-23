@@ -6,7 +6,6 @@ description: Apple Login을 직접 구현하는 방법을 알아봅니다.
 tags: 애플로그인, AppleLogin
 categories: 로그인
 giscus_comments: true
-featured: true
 toc:
   sidebar: left
 ---
