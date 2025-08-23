@@ -9,8 +9,6 @@
     "github": "https://github.com/hwangrolee/",
     "linkedin": "https://www.linkedin.com/in/hwangro-lee-68082a185/",
     "medium": "https://medium.com/@lhr0419",
-    "summary": "새로움을 즐기고 어려움을 극복하면서 개발을 하고 있습니다.<br><br>스타트업에서 웹 프론트엔드/백엔드 업무 모두 경험을 했고 수많은 새로운 기능을 개발했으며 버그를 수정해왔습니다. 그리고 서비스가 불안정할 때 MySQL, Redis 등 시스템 퍼포먼스를 개선하여 안정화 시킨 경험이 있고 제가 좋아하는 업무입니다.<br><br>평소 소통과 신뢰를 중시하며 사소한 문제라도 팀원과 소통하는 편입니다. 특히 코드리뷰를 하면서 사소한 부분이라도 궁금한 부분에 대해서 소통합니다. 코드리뷰를 통해 잠재적 버그와 좋은 코드품질 유지, 견고한 서비스를 만들기 위해 노력하고 있습니다.<br><br>개발할 때 현재 개발 상황과 가까운 미래를 생각하여 오버엔지니어링이 되지 않도록 항상 고민합니다.<br><br>최근에는 테크 리드로써 팀원들이 즐겁게 개발하면서 성장하기 위해 어떻게 팀을 운영해야 할지 고민을 많이 하고 여러 시도를 했습니다.<br>&ensp;- 팀원 의견을 듣기 위한 정기적 1 on 1.<br>&ensp;- 업무에 대한 작은 부담을 주어서 책임감을 가지게 하기 위한 데일리 미팅<br>&ensp;- 코드 안정성과 코드 읽기 능력 향상, 책임 분배를 위한 코드 리뷰<br>&ensp;- PT 능력을 기르고 자신만의 경험을 공유하기 위한 DEV 세션<br>&ensp;- 본인의 경험과 지식을 잘 정리하기 위한 회사 블로그 운영<br>&ensp;- 특정 개발자에 의존하지 않고 안정적으로 운영하기 위해 Bus Factor 방식으로 운영",
-    "it's Me": "1. 평상시에는 조용한 사람이지만 일할 때 만큼은 제 의견을 최대한 말하려고 해요.<br>2. 퇴근해도 노트북은 들고 집으로 가요. 개발자는 퇴근 후에도 장애가 나면 바로 살펴볼 수 있어야 한다고 생각해요.\n<br>3. 개발자는 꼼꼼해야 하고 스스로 잘했는지 의심해야 한다고 생각해요.\n<br>4. 동료가 작성한 코드를 신뢰하기 보다 의심하고 개선점을 찾을 수 있어야 한다고 생각합니다.\n<br>5. 개발할 때에는 여러 명에게 코드 리뷰를 요청해요. 코드 리뷰는 코드에 대한 책임이 분산시키고 장애 발생시 다른 사람이 빠르게 해결 할 수 있는 환경을 제공해요.\n<br>6. 아침마다 오늘 할일을 정리하는 편이에요.\n<br>7. 오랜 시간 하나의 업무에 매달리는 팀원이 있으면 신경이 쓰여요.\n<br>8. 문제 해결을 위해 혼자 너무 많은 시간을 쓰는 사람을 좋아하지 않아요.\n<br>9. 유연한 사고 방식을 가지고 다른 사람의 의견에 경청 할 줄 아는 사람을 선호하고 저도 경청하려고 노력해요.\n<br>10. 자신의 생각을 논리적으로 다른 사람에게 표현하고 설득하기 위해 노력하는 사람을 선호해요",
     "profiles": [
       {
         "network": "Linkedin",
@@ -26,10 +24,18 @@
   },
   "work": [
     {
+      "name": "지니파이 주식회사",
+      "position": "Technical Lead  / Full Stack Developer",
+      "startDate": "2025-03",
+      "endDate": "2025-06",
+      "summary": "<b>1.  노코드 툴 -> 신규 웹 사이트 진행(완료x)</b><br><b>2. 커뮤니티 운영 서포트</b><br>&ensp;- n8n, retool 등 워크플로우 툴 활용<br>3. 기술<br>&ensp;- Bettermode (노코드 커뮤니티 플랫폼)<br>&nbsp;- Nextjs, Typescript, Vite, Python Mono repo<br>&nbsp;- PostgreSQL(Neon), Redis(Upstash)",
+      "highlights": []
+    },
+    {
       "name": "Metric Studio Inc. (NNT)",
       "position": "Technical Lead",
       "startDate": "2023-05",
-      "endDate": "현재",
+      "endDate": "2024-12",
       "summary": "<b>NNT Tech 팀 테크리드, 팀 빌딩</b><br><br>1. 프로젝트 PM , 개발 자문<br>&ensp;- Hyundai DDM 2.0 (w/ INNOCEAN)<br>&ensp;- Innocean Ads Hub 1차<br>&ensp;- LGU+ Marketing Data Warehouse<br>&ensp;- JYPThreeSix 커머스 데이터 통합 및 매출 대시보드<br><br>2. NNT Consulting 서포트<br>&ensp;- Content SEO 를 위한 서브폴더/서브 도메인 워드프레스 서버 셋업 가이드<br>&ensp;- 리포트 자동화 파이프라인 구축<br>&ensp;- GCP/AWS 기반 서버리스 아키텍처 설계 및 개발<br><br>3. 시스템 관리 및 사용 기술<br>&ensp;- 클라우드 비용 절감을 위한 퍼포먼스 개선<br>&ensp;- Cloud Quotas, Cloud Billing Budget<br>&ensp;- BigQuery 쿼리 개선<br>&ensp;- Python, Java, Spring boot, Airflow<br>&ensp;- 크롤링(Selenium, Playwrite)",
       "highlights": []
     },
@@ -96,13 +102,13 @@
       "name": "데이터베이스",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["MySQL", "MongoDB", "Redis", "BigQuery"]
+      "keywords": ["MySQL", "MongoDB", "Redis", "BigQuery", "PostgreSQL"]
     },
     {
       "name": "테스트",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["JUnit5", "Spock Framework"]
+      "keywords": ["JUnit5", "Spock Framework", "Playwright(e2e)"]
     },
     {
       "name": "인프라 - AWS",
