@@ -22,11 +22,13 @@ social: true # includes social icons at the bottom of the page
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">스프링</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">파이썬</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">데이터엔지니어링</span>
+<span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">성능개선</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">Next.JS</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">Vercel</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">MySQL</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">MongoDB</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">Redis</span>
+<span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">MQ</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">AWS</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">GCP</span>
 
