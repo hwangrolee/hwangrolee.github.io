@@ -4,6 +4,7 @@ title: Apple login 사용해보기
 date: 2024-12-01
 description: Apple Login을 직접 구현하는 방법을 알아봅니다.
 tags: 애플로그인, AppleLogin
+keywords: Apple, Apple Login, 애플로그인, OAuth
 categories: 로그인
 giscus_comments: true
 toc:
