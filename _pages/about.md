@@ -1,6 +1,6 @@
 ---
 layout: about
-# title: about
+title: about
 permalink: /
 subtitle:
 
@@ -12,6 +12,8 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+## About Me
 
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">10년차</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">풀스택 개발자</span>
@@ -27,8 +29,6 @@ social: true # includes social icons at the bottom of the page
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">Redis</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">AWS</span>
 <span class="badge font-weight-bold primary-color text-uppercase align-middle" style=" padding: 4px 6px;">GCP</span>
-
-## About Me
 
 안녕하세요! 친절한 개발자를 목표로 개발을 즐기고 있습니다. 새로움을 즐기고 어려움을 극복하면서 개발하는 것에 큰 보람을 느끼고 있습니다.
 
