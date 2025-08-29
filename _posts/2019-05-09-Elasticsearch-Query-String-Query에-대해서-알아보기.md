@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Query-String-Query에-대해서-알아보기/
 ---
 
 *query string*쿼리는 연산자를 중심으로 텍스트를 분할하여 쿼리를 분석합니다.

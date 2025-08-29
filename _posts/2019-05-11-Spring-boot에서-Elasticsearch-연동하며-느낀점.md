@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Spring-boot에서-Elasticsearch-연동하며-느낀점/
 ---
 
 Spring boot에서 Elasticsearch를 ORM으로 시도했다가 Rest Client로 바꾼 이유에 대해서 설명할게요.

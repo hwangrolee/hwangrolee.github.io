@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Fuzziness에-대해서-알아보기/
 ---
 
 Match Query를 공부 중 Fuzziness 개념을 알게 되었습니다.

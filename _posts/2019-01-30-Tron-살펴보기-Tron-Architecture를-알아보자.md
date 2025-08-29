@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Tron-살펴보기-Tron-Architecture를-알아보자/
 ---
 
 > https://developers.tron.network/docs/architecture 글을 번역한 글입니다.

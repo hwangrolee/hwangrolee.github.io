@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Tron-살펴보기-TronBox-시작하기/
 ---
 
 > https://developers.tron.network/docs/tron-box-user-guide 를 번역한 글입니다.

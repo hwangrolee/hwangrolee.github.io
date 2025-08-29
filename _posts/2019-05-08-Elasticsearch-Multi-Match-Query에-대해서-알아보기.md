@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Multi-Match-Query에-대해서-알아보기/
 ---
 
 쿼리를 시도할때 검색어를 하나의 필드가 아닌 여러개의 필드를 통해 검색을 하고 싶다면 **Multi Match Query**를 사용하세요.

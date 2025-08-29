@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Match-Phrase-Prefix-Query에-대해서-알아보기/
 ---
 
 **Match Phrase Query** 와 같지만 약간 다른 **Match Phrase Prefix Query**에 대해서 알아보겠습니다.

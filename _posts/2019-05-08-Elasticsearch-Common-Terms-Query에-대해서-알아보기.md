@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Common-Terms-Query에-대해서-알아보기/
 ---
 
 쿼리의 모든 term에는 비용이 있습니다.

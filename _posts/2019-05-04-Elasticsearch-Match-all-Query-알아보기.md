@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Match-all-Query-알아보기/
 ---
 
 안녕하세요. Elastic Stack을 공부하고 있는 서버개발자입니다.

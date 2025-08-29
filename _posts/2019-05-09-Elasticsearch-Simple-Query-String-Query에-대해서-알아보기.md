@@ -8,6 +8,8 @@ giscus_comments: true
 sitemap:
   changefreq: daily
   priority: 1.0
+redirect_from:
+  - /Elasticsearch-Simple-Query-String-Query에-대해서-알아보기/
 ---
 
 *query_string*과는 달리 *simple_query_string*쿼리는 예외를 throw하지 않으며 쿼리의 잘못된 부분을 삭제합니다.
