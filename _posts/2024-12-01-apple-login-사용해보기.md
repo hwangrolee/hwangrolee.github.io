@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Apple login 사용해보기
+title: Apple 로그인 연동 방법 Client ID 설정, JWT Secret 생성 및 토큰 발급
 date: 2024-12-01
-description: Apple Login을 직접 구현하는 방법을 알아봅니다.
-tags: 애플로그인, AppleLogin
+description: Apple 로그인 연동에 어려움을 겪고 계신가요? 이 가이드에서는 Apple 개발자 계정 설정부터 Ruby를 이용한 client_secret 생성, JWT 토큰 발급까지 모든 단계를 이미지와 함께 상세히 설명합니다. 특히 개발자들이 자주 겪는 헷갈리는 Client ID 문제와 리디렉션 오류에 대한 명쾌한 해결책을 제시합니다.
+tags: 애플로그인, 로그인
 keywords: Apple, Apple Login, 애플로그인, OAuth
 categories: 로그인
 giscus_comments: true
@@ -11,9 +11,13 @@ toc:
   sidebar: left
 ---
 
+> Apple 로그인 연동에 어려움을 겪고 계신가요? 이 가이드에서는 Apple 개발자 계정 설정부터 Ruby를 이용한 client_secret 생성, JWT 토큰 발급까지 모든 단계를 이미지와 함께 상세히 설명합니다. 특히 개발자들이 자주 겪는 헷갈리는 Client ID 문제와 리디렉션 오류에 대한 명쾌한 해결책을 제시합니다.
+
 ### 0. 준비사항
 
-[애플 로그인 뉴스](https://developer.apple.com/kr/news/?id=09122019b)
+2019년 애플은 iOS 앱을 만들 때 로그인 기능에 애플 로그인을 넣도록 강제하였습니다.
+
+- [애플 로그인 뉴스](https://developer.apple.com/kr/news/?id=09122019b)
 
 https://developer.apple.com/account 에서 필요한 정보를 알 수 있습니다.
 
