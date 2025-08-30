@@ -4,7 +4,7 @@ title: 비관적 락(Pessimistic Lock), 진짜 뭔지 아세요? - 개발자
 date: 2025-08-02 00:00:00
 description: 비관적 락(Pessimistic Lock)이란 무엇일까요? 'SELECT FOR UPDATE'의 동작 원리부터 성능 저하 문제, 멀티 서버 환경에서의 동작 방식, 실무 사용 팁까지 개발자가 꼭 알아야 할 7가지 핵심 질문으로 동시성 제어의 모든 것을 완벽하게 정리합니다.
 tags: MySQL, SQL, Lock, 동시성, 트랜잭션
-keywords: 비관적 락, Pessimistic Lock, 동시성 제어, 트랜잭션, 데이터베이스 락, SELECT FOR UPDATE, row-level lock, Spring Data JPA, MySQL, 데이터 정합성, 분산 락, 개발자
+keywords: 비관적 락, Pessimistic Lock, SELECT FOR UPDATE, 동시성 제어, 데이터베이스 락, 트랜잭션, 데이터 정합성, row-level lock, MySQL, Spring Data JPA
 categories: Database
 giscus_comments: true
 toc:
