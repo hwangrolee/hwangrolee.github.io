@@ -255,6 +255,9 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [License](#license)
   - [빌드](#빌드)
   - [로컬에서 실행](#로컬에서-실행)
+  - [prettier 체크](#prettier-체크)
+  - [prettier 수정](#prettier-수정)
+  - [링크 검사](#링크-검사)
 
 ## Getting started
 
@@ -491,5 +494,27 @@ bundle exec jekyll build
 ## 로컬에서 실행
 
 ```bash
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve
+```
+
+## prettier 체크
+
+```bash
+npx prettier . --check
+```
+
+## prettier 수정
+
+```bash
+npx prettier . --write
+```
+
+## 링크 검사
+
+```bash
+# 설치
+brew install lychee
+
+# 실행
+lychee http://localhost:4000
 ```
