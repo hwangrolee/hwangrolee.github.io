@@ -12,10 +12,6 @@ redirect_from:
   - /Tron-살펴보기-TronBox-시작하기/
 ---
 
-> https://developers.tron.network/docs/tron-box-user-guide 를 번역한 글입니다.
-
----
-
 터미널에서 TronBox와 TronGrid을 빠르게 세팅하고 실행할 수 있습니다. TronBox와 TronGrid 이 2개의 툴로 MetaCoin App을 실행하고 Smart Contract 컴파일, Contract 배포, 마지막으로 Shasta 테스트넷에서 이벤트 쿼리를 실행할 수있습니다.
 
 > 원래는 튜토리얼 영상이 있는데 게시자가 지운듯 싶습니다.

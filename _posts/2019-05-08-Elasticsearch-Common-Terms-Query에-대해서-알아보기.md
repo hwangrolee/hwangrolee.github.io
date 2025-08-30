@@ -50,7 +50,3 @@ $ curl "localhost:9200/sales-records/_search?pretty" -H "Content-Type:applicatio
   }
 }'
 ```
-
-> 참고사이트
->
-> 1. https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-common-terms-query.html

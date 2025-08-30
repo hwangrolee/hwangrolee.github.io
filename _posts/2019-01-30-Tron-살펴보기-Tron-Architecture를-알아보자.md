@@ -12,10 +12,6 @@ redirect_from:
   - /Tron-살펴보기-Tron-Architecture를-알아보자/
 ---
 
-> https://developers.tron.network/docs/architecture 글을 번역한 글입니다.
-
----
-
 Tron은 storage layer, core layer, application layer로 구성된 3계층 아키텍처를 채택합니다.
 
 ![tron architecture ](https://files.readme.io/61639e9-tronarchitecture.jpg)

@@ -130,8 +130,3 @@ $ curl "localhost:9200/sales-records/_search?pretty" -H "Content-Type:applicatio
 ### phrase_prefix
 
 각 필드에서 _match_phrase_prefix_ 쿼리를 실행하고 각 필드의 *\_score*를 사용합니다.
-
-> 참고사이트
->
-> 1. https://gist.github.com/einsub/86638954d3d6168bdfbe772c3f3d3d90
-> 2. https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html#type-best-fields

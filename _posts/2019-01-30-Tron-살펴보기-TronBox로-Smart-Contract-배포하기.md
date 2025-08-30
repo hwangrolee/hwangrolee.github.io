@@ -12,10 +12,6 @@ redirect_from:
   - /Tron-살펴보기-TronBox로-Smart-Contract-배포하기/
 ---
 
-> https://developers.tron.network/docs/tron-box-contract-deployment 를 번역한 글입니다.
-
----
-
 ### Example Tutorial Project
 
 TronBox MetaCoin 예제 프로젝트는 다음 링크에서 진행 할 수 있습니다.
