@@ -9,7 +9,7 @@ categories: 인증/인가
 giscus_comments: true
 toc:
   sidebar: left
-featured: true
+featured: false
 ---
 
 > "구글 로그인은 OAuth 2.0으로 만들었어요."
