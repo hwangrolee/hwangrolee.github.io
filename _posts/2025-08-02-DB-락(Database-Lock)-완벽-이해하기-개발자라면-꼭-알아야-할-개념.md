@@ -10,7 +10,7 @@ categories: Database
 giscus_comments: true
 toc:
   sidebar: left
-featured: true
+featured: false
 ---
 
 > "은행 계좌에서 돈을 빼는데, 둘이 동시에 빼면 어떻게 될까?"
