@@ -1,0 +1,4 @@
+exclude = [
+    "linkedin.com",
+    "www.linkedin.com"
+]
