@@ -3,13 +3,17 @@ layout: post
 title: MySQL 트랜잭션 격리수준 Isolation level 알아보기
 date: 2024-12-15 00:00:00
 description: MySQL 트랜잭션 격리수준 Isolation level 알아보기
-tags: mysql, 트랜잭션, IsolationLevel, 격리수준, Transaction
+tags: 데이터베이스, mysql, 트랜잭션, IsolationLevel, 격리수준, Transaction
 keywords: mysql, 트랜잭션, Isolation Level, 트랜잭션 격리수준, Transaction
-categories: MySQL
+categories: MySQL, 데이터베이스
 giscus_comments: true
 toc:
   sidebar: left
 ---
+
+<p align="center">
+  <img src="/assets/img/Database_MySQL_트랜잭션_격리수준_Isolation_Level_알아보기.png" alt="MySQL 트랜잭션 격리수준 Isolation level 알아보기" width="100%">
+</p>
 
 트랜잭션의 격리 수준이란 여러 트랜잭션이 동시에 처리될 때 다른 트랜잭션에서 변경이 일어났을 때 해당 데이터를 또 다른 트랜잭션에서 조회가 가능하게 할지를 허용할지 말지를 결정하는 것이다. 격리 수준에는 총 4개가 있다.
 
