@@ -12,7 +12,7 @@ toc:
 ---
 
 <p align="center">
-  <img src="/assets/img/Database_비관적_락_Pessimistic_Lock_뭔지_아세요.png" alt="비관적 락(Pessimistic Lock), 진짜 뭔지 아세요? - 개발자가 궁금해할 질문 7가지로 정리" width="100%">
+  <img src="/assets/img/understanding-database-pessimistic-lock.png" alt="비관적 락(Pessimistic Lock), 진짜 뭔지 아세요? - 개발자가 궁금해할 질문 7가지로 정리" width="100%">
 </p>
 
 ### 비관적 락에 대한 7가지 궁금증

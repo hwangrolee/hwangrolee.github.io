@@ -12,7 +12,7 @@ toc:
 ---
 
 <p align="center">
-  <img src="/assets/img/Database_MySQL_트랜잭션_격리수준_Isolation_Level_알아보기.png" alt="MySQL 트랜잭션 격리수준 Isolation level 알아보기" width="100%">
+  <img src="/assets/img/understanding-mysql-transaction-isolation-levels.png" alt="MySQL 트랜잭션 격리수준 Isolation level 알아보기" width="100%">
 </p>
 
 트랜잭션의 격리 수준이란 여러 트랜잭션이 동시에 처리될 때 다른 트랜잭션에서 변경이 일어났을 때 해당 데이터를 또 다른 트랜잭션에서 조회가 가능하게 할지를 허용할지 말지를 결정하는 것이다. 격리 수준에는 총 4개가 있다.

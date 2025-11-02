@@ -13,7 +13,7 @@ featured: false
 ---
 
 <p align="center">
-  <img src="/assets/img/Database_Database_Lock_이해하기.png" alt="DB 락(Database Lock) 완벽 이해하기 - 개발자라면 꼭 알아야 할 개념" width="100%">
+  <img src="/assets/img/understanding-database-locks.png" alt="DB 락(Database Lock) 완벽 이해하기 - 개발자라면 꼭 알아야 할 개념" width="100%">
 </p>
 
 > "은행 계좌에서 돈을 빼는데, 둘이 동시에 빼면 어떻게 될까?"

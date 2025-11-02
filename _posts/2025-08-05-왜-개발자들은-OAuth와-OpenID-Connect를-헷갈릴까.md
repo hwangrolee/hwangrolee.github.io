@@ -13,7 +13,7 @@ featured: false
 ---
 
 <p align="center">
-  <img src="/assets/img/OAuth_vs_OpenID_Connect.png" alt="왜 개발자들은 OAuth와 OpenID Connect를 헷갈릴까?" width="100%">
+  <img src="/assets/img/oauth-vs-openid-connect.png" alt="왜 개발자들은 OAuth와 OpenID Connect를 헷갈릴까?" width="100%">
 </p>
 
 > "구글 로그인은 OAuth 2.0으로 만들었어요."
