@@ -111,7 +111,7 @@ social: true # includes social icons at the bottom of the page
 4. 레디스 전체를 스캔하는 명령어를 튜닝하여 성능개선
    - 레디스는 한번에 1개의 명령어만 처리 가능하기 때문에 처리시간이 오래 걸리는 명령어 사용시 병목현상이 발생
 
-##### **GCP 기반 데이터 파이프라인**
+##### **서버리스 데이터 파이프라인**
 
 1. Cloud Run, Functions, Cloud Task, Cloud Scheduler, BigQuery 활용한 데이터 파이프라인 작업
 2. 과도한 비용 발생 방지 및 모니터링을 위해 Cloud Qutoas , Cloud Monitoring 활용
