@@ -124,15 +124,14 @@ social: true # includes social icons at the bottom of the page
 
 ## **Skills**
 
-- 언어: Java, Python, Javascript(Typescript)
+- 언어: Java, Python, Javascript(Typescript), HTML, CSS
 - 프론트엔드 : Javascript, CSS, HTML5, SASS, Reactjs(Nextjs), jQuery, Webpack, Babel
-- 프레임워크 : Spring Boot
+- 프레임워크 / 라이브러리 : Spring Boot, Next.js, React, Hibernate(JPA), MyBatis, Prisma, jQuery, PostCSS
 - 데이터베이스 : MySQL, MongoDB, Redis, BigQuery, PostgreSQL(기초)
-- ORM: JPA, Mybatis, Prisma(기초)
-- 테스트 : JUnit5, Spock Framework
+- 테스트 : JUnit5, Spock Framework,Playwright(e2e)
 - 인프라
   - AWS : EC2, S3, API Gateway, Lambda, RDS, CloudWatch, CloudFront, MQ 등
   - GCP : Compute Engine, Cloud Storage, Cloud Run Function, Cloud SQL, Cloud Logging, Cloud Task 등
-- 기타 : Airflow, Docker, Crawler(Selenium, Playwright)
+- 기타 : Airflow, Docker, Crawler(Selenium, Playwright), Git, Github, Notion, Slack
 
 ---
