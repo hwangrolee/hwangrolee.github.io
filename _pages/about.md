@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: 문제를 해결하면서 새로움을 배우고 즐기는 풀스택 개발자입니다. 스타트업에서 자바, 스프링, 파이썬, MySQL, AWS, GCP 중심의 기술 스택으로 서비스를 설계/개발/운영 해왔습니다.
 
