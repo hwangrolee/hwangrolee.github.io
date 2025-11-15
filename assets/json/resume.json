@@ -24,6 +24,14 @@
   },
   "work": [
     {
+      "name": "레몬헬스케어(프리랜서)",
+      "position": "Backend Engineer",
+      "startDate": "2025-08",
+      "endDate": "2025-11",
+      "summary": "<div><p>프리랜서로써 보험개발원에서 근무하면서 실손24(실손보험 청구)를 보험사/대외기관에서 활용 할 수 있도록 API 를 개발하였습니다.</p><p>기존 실손보험 청구 로직을 모르는 상황이기에 앞으로 해야 할 업무를 별도 WBS 형태로 관리하였습니다.</p><p>업무노트를 작성하면서 작업한 내용 / 작업할 내용을 기록하여 팀원과 더블체크하면서 서로의 이해도를 맞추기 위해 노력하였습니다.</p><p><strong>서버 개발</strong></p><ul><li>보험사/대외기관에서 실손24(실손보험 청구) 사용을 위한 API 개발</li><li>사용자가 보험사/대외기관 통해서 실손보험 청구 할 때 사용하는 API 개발</li><li>기존 실손24 웹사이트에서 활용하고 있는 API 를 참고하여 개발하였으며 신규 테이블/기획안에 맞게 비즈니스 로직을 개발하였습니다.</li></ul><br><p><strong>사용 기술</strong></p><ul><li>언어 : Java</li><li>프레임워크 및 라이브러리 : Spring Boot, Vizend</li><li>데이터베이스 : Oracle</li><li>기타 : Github, GitLab</li></ul><br></div>",
+      "highlights": []
+    },
+    {
       "name": "지니파이 주식회사",
       "position": "Technical Lead  / Full Stack Developer",
       "startDate": "2025-03",
