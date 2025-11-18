@@ -9,7 +9,7 @@ categories: 리액트네이티브, Expo
 giscus_comments: true
 toc:
   sidebar: left
-featured: true
+featured: false
 ---
 
 <p align="center">
