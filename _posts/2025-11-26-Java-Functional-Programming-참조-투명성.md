@@ -9,7 +9,7 @@ categories: 자바
 giscus_comments: true
 toc:
   sidebar: left
-featured: false
+featured: true
 ---
 
 <p align="center">
