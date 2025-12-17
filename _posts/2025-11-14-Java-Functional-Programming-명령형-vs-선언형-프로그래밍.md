@@ -3,7 +3,7 @@ layout: post
 title: "Java Functional Programming - 명령형 vs 선언형 프로그래밍"
 date: 2025-11-14 00:00:00
 description: "명령형(Imperative)과 선언형(Declarative) 프로그래밍 패러다임의 근본적인 차이를 설명합니다. Java Stream API를 활용한 함수형 프로그래밍으로 'How'가 아닌 'What'에 집중하여 코드의 가독성, 유지보수성, 병렬 처리 성능을 향상시키는 방법을 실제 코드 예시와 함께 배웁니다."
-tags:
+tags: 자바
 keywords: Java Functional Programming, 함수형 프로그래밍, 명령형 프로그래밍, 선언형 프로그래밍, Stream API, filter, map, reduce
 categories: 자바
 giscus_comments: true

@@ -303,7 +303,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: [] # these tags will be displayed on the front page of your blog
+display_tags: ["자바", "데이터베이스", "AI", "개발방법론", "크롤링"] # these tags will be displayed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

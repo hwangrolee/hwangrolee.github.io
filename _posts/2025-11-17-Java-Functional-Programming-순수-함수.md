@@ -3,7 +3,7 @@ layout: post
 title: "Java Functional Programming - 순수함수(Pure Function)"
 date: 2025-11-17 00:00:00
 description: "Functional Programming의 핵심인 순수 함수(Pure Function)를 깊이 있게 다룹니다. 같은 입력에 항상 같은 출력을 보장하는 결정론적 특성과 부수 효과 제거를 통해 병렬 처리 안전성, 메모이제이션, 참조 투명성을 확보하는 방법을 실제 Java 코드 예시와 함께 설명합니다."
-tags:
+tags: 자바
 keywords: 순수 함수, Pure Function, Java Functional Programming, 부수 효과, 불변성, 참조 투명성, 메모이제이션, 스레드 안전성, 병렬 처리
 categories: 자바
 giscus_comments: true
