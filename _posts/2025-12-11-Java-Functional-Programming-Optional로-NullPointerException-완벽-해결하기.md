@@ -8,7 +8,7 @@ keywords: JavaOptional, NullPointerException, FunctionalProgramming, Java8, 자�
 categories: 자바
 giscus_comments: true
 toc:
-  sidebar: left
+  sidebar: false
 featured: true
 ---
 
