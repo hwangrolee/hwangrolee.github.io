@@ -2,16 +2,9 @@
 layout: post
 title: Java Functional Programming - Optional로 NullPointerException 완벽 해결하기
 date: 2025-12-11 00:00:00
-description: Java 8 Optional을 활용하여 NullPointerException을 구조적으로 제거하고 Functional Programming을
-  시작하세요. map, orElseGet 등의 고차 함수를 통한 안전하고 선언적인 데이터 변환 기법(불변성, 지연 평가)을 학습하여 코드의 안전성과
-  가독성을 극대화하는 방법을 심층적으로 다룹니다.
-tags: [자바]
-keywords: JavaOptional, NullPointerException, FunctionalProgramming, Java8, 자바심화,
-  널안전성, 선언적프로그래밍, orElseGet, JavaMap, Immutability, 지연평가, 함수형
+description: Java 8 Optional을 활용하여 NullPointerException을 구조적으로 제거하고 Functional Programming을 시작하세요. map, orElseGet 등의 고차 함수를 통한 안전하고 선언적인 데이터 변환 기법(불변성, 지연 평가)을 학습하여 코드의 안전성과 가독성을 극대화하는 방법을 심층적으로 다룹니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: false
 author: hwangrolee
 image:
   path: /assets/img/Java-Functional-Programming-Completely-Solving-NullPointerException-with-Optional.jpg

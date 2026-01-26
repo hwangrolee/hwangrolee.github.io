@@ -6,7 +6,7 @@ author: hwangrolee
 description: Java Functional Programming의 핵심인 지연 평가(Lazy Evaluation)의 원리를 상세히 알아봅니다.
   Supplier 인터페이스와 Stream API의 중간 연산이 어떻게 연산을 미루고, 단락 회로(Short-Circuiting) 및 연산 융합(Loop
   Fusion)을 통해 시스템 성능을 최적화하는지 실무 코드 예제로 학습하세요.
-tags: [자바]
+tags: [자바, 함수형 프로그래밍]
 keywords: Java 지연 평가, Lazy Evaluation, Java Stream API, 자바 함수형 프로그래밍, 성능 최적화, Java
   Supplier, 중간 연산 최종 연산, 단락 회 (Short-Circuiting), 루프 퓨전(Loop Fusion), 순수 함수(Pure Function),
   람다 표현식, 부수 효과(Side Effect)

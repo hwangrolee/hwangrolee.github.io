@@ -2,16 +2,9 @@
 layout: post
 title: Java Functional Programming - Java record 활용
 date: 2025-12-05 00:00:00
-description: Java record를 활용하여 불변(Immutable) 데이터 모델을 효율적으로 정의하는 방법을 학습하십시오. record가
-  보일러플레이트 코드를 제거하고, Functional Programming의 핵심인 불변성을 어떻게 보장하는지 설명합니다. Stream API와
-  메서드 참조를 이용해 record 객체를 안전하게 활용하고 데이터 중심의 선언적 코드를 작성하는 실용적인 Java 예시를 제공합니다.
-tags: [자바]
-keywords: Java record, Java 16, 불변성, Immutability, Functional Programming, 보일러플레이트
-  제거, Stream API, 메서드 참조, Canonical Constructor, 데이터 모델, 스레드 안전성, Thread Safety
+description: Java record를 활용하여 불변(Immutable) 데이터 모델을 효율적으로 정의하는 방법을 학습하십시오. record가 보일러플레이트 코드를 제거하고, Functional Programming의 핵심인 불변성을 어떻게 보장하는지 설명합니다. Stream API와 메서드 참조를 이용해 record 객체를 안전하게 활용하고 데이터 중심의 선언적 코드를 작성하는 실용적인 Java 예시를 제공합니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/02-03-java-fp-java-record.png

@@ -2,17 +2,9 @@
 layout: post
 title: Java Functional Programming - 함수를 일급 객체로 (First-Class Citizen)
 date: 2025-11-23 00:00:00
-description: Java Functional Programming의 핵심인 '함수 일급 객체' 개념을 완벽하게 이해하세요. 함수를 변수에 할당,
-  다른 함수의 인자로 전달, 함수의 결과로 반환하는 3가지 조건을 Java 람다 표현식과 함수형 인터페이스를 통해 구체적인 예시 코드와 함께 설명합니다.
-  Stream API와 고차 함수(Higher-Order Function) 활용법을 익혀 선언적인 코드 설계 능력을 강화하십시오.
-tags: [자바]
-keywords: Java Functional Programming, 일급 객체, First-Class Citizen, 람다 표현식, Lambda
-  Expression, 함수형 인터페이스, Functional Interface, 고차 함수, Higher-Order Function, Stream
-  API, 동작 파라미터화, OCP, 개방-폐쇄 원칙, 클로저, Closure, Java 8
+description: Java Functional Programming의 핵심인 '함수 일급 객체' 개념을 완벽하게 이해하세요. 함수를 변수에 할당, 다른 함수의 인자로 전달, 함수의 결과로 반환하는 3가지 조건을 Java 람다 표현식과 함수형 인터페이스를 통해 구체적인 예시 코드와 함께 설명합니다. Stream API와 고차 함수(Higher-Order Function) 활용법을 익혀 선언적인 코드 설계 능력을 강화하십시오.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/01-04-java-fp-first-class-citizen.png

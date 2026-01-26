@@ -2,16 +2,9 @@
 layout: post
 title: Java Functional Programming - Stream API 기초 및 활용(filter, map, reduce)
 date: 2025-12-08 00:00:00
-description: Java Stream API의 중간 연산(filter, map, distinct, sorted)과 최종 연산(forEach,
-  reduce, collect)을 실전 예제와 함께 완벽 정리. 함수형 프로그래밍으로 데이터 처리 마스터하기. Java 8 이상 필수 기술
-tags: [자바]
-keywords: Java Stream API, 자바 스트림, filter 사용법, map 메서드, collect 컬렉터, 함수형 프로그래밍, 중간
-  연산, 최종 연산, reduce 예제, Lambda 표현식, Java 8, 지연 연산, Lazy Evaluation, parallelStream,
-  병렬 처리, 컬렉션 처리, forEach, distinct, sorted, flatMap, groupingBy, 자바 코드 최적화
+description: Java Stream API의 중간 연산(filter, map, distinct, sorted)과 최종 연산(forEach, reduce, collect)을 실전 예제와 함께 완벽 정리. 함수형 프로그래밍으로 데이터 처리 마스터하기. Java 8 이상 필수 기술
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/Java-Functional-Programming-Stream-API-Basics-and-Usage-filter-map-reduce.jpg

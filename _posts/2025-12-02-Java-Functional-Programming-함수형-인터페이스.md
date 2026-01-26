@@ -2,17 +2,9 @@
 layout: post
 title: Java Functional Programming - 함수형 인터페이스
 date: 2025-12-02 00:00:00
-description: Java Functional Programming의 핵심인 표준 함수형 인터페이스(Function, Consumer, Predicate,
-  Supplier)를 마스터하십시오. 각 인터페이스의 역할과 Stream API에서의 활용법을 구체적인 Java 8+ 코드로 설명합니다. Bi-접두사
-  인터페이스와 Primitive 특화 인터페이스를 통한 박싱/언박싱 오버헤드 제거 및 성능 최적화 전략까지 상세히 다룹니다.
-tags: [자바]
-keywords: Java 함수형 인터페이스, Functional Interface, java.util.function, 람다 표현식, Lambda
-  Expression, Stream API, Function, Consumer, Predicate, Supplier, Primitive 특화, 박싱
-  언박싱, Boxing Unboxing, BiFunction, SAM
+description: Java Functional Programming의 핵심인 표준 함수형 인터페이스(Function, Consumer, Predicate, Supplier)를 마스터하십시오. 각 인터페이스의 역할과 Stream API에서의 활용법을 구체적인 Java 8+ 코드로 설명합니다. Bi-접두사 인터페이스와 Primitive 특화 인터페이스를 통한 박싱/언박싱 오버헤드 제거 및 성능 최적화 전략까지 상세히 다룹니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/02-02-java-fp-functional-interface.png

@@ -2,16 +2,10 @@
 layout: post
 title: Java Functional Programming - 병렬 스트림과 순수 함수로 고성능 스레드 안전성 확보
 date: 2025-12-17 00:00:00
-description: Java 병렬 스트림(Parallel Stream)과 순수 함수(Pure Function)의 관계를 심층 분석하여 멀티코어
-  환경에서 안전하게 성능을 최적화하는 방법을 학습합니다. 부수 효과(Side Effect) 없는 불변성 로직으로 경합 조건을 회피하고, 명령형 코드
-  대비 선언적인 고성능 데이터 처리 파이프라인을 구축하는 핵심 원칙을 제시합니다.
-tags: [자바]
-keywords: JavaFunctionalProgramming, ParallelStream, PureFunction, ThreadSafety, Concurrency,
-  Java8, 성능최적화, 스레드안전성, 불변성, 순수함수, SideEffect, 자바고급
+description: Java 병렬 스트림(Parallel Stream)과 순수 함수(Pure Function)의 관계를 심층 분석하여 멀티코어 환경에서 안전하게 성능을 최적화하는 방법을 학습합니다. 부수 효과(Side Effect) 없는 불변성 로직으로 경합 조건을 회피하고, 명령형 코드 대비 선언적인 고성능 데이터 처리 파이프라인을 구축하는 핵심 원칙을 제시합니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
 giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 pin: true
 image:

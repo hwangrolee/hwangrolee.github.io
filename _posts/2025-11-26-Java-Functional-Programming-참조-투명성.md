@@ -2,17 +2,9 @@
 layout: post
 title: Java Functional Programming - 참조 투명성 (Referential Transparency)
 date: 2025-11-26 00:00:00
-description: Functional Programming의 핵심 원칙인 참조 투명성(Referential Transparency)을 완벽히
-  이해하십시오. 참조 투명성과 순수 함수(Pure Function)의 관계를 명확한 Java 코드 예시로 설명하고, 부수 효과(Side Effect)가
-  없는 코드가 테스트 용이성, 메모이제이션 최적화, 스레드 안전성(Thread Safety)에 어떻게 기여하는지 상세히 다룹니다.
-tags: [자바]
-keywords: 참조 투명성, Referential Transparency, 순수 함수, Pure Function, Functional Programming,
-  부수 효과, Side Effect, 메모이제이션, Memoization, 테스트 용이성, 스레드 안전성, Thread Safe, 불변성, Immutable,
-  Java 8
+description: Functional Programming의 핵심 원칙인 참조 투명성(Referential Transparency)을 완벽히 이해하십시오. 참조 투명성과 순수 함수(Pure Function)의 관계를 명확한 Java 코드 예시로 설명하고, 부수 효과(Side Effect)가 없는 코드가 테스트 용이성, 메모이제이션 최적화, 스레드 안전성(Thread Safety)에 어떻게 기여하는지 상세히 다룹니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/01-05-java-fp-referential-transparency.png

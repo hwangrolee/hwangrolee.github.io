@@ -2,17 +2,9 @@
 layout: post
 title: 'Java Functional Programming - Stream API 심화: flatMap과 Collectors'
 date: 2025-12-14 00:00:00
-description: Java 8 이상의 Stream API에서 flatMap과 Collectors를 사용하여 복잡한 중첩 데이터 구조를 효율적으로
-  처리하고 집계하는 Functional Programming 기법을 다룹니다. 불변성(Immutability), 순수 함수(Pure Function),
-  고차 함수(Higher-Order Function) 등의 핵심 개념을 바탕으로, 명령형 코드 대비 선언적 코드의 이점(유지보수성, 병렬 처리 안전성)을
-  강조하며 groupingBy, partitioningBy를 이용한 실무 수준의 데이터 분석 패턴을 제시합니다.
-tags: [자바]
-keywords: Java, Java8+, FunctionalProgramming, StreamAPI, flatMap, Collectors, GroupingBy,
-  DataPipeline, 자바심화, 함수형프로그래밍, 개발자교육, 자바고급, Immutable, PureFunction
+description: Java 8 이상의 Stream API에서 flatMap과 Collectors를 사용하여 복잡한 중첩 데이터 구조를 효율적으로 처리하고 집계하는 Functional Programming 기법을 다룹니다. 불변성(Immutability), 순수 함수(Pure Function), 고차 함수(Higher-Order Function) 등의 핵심 개념을 바탕으로, 명령형 코드 대비 선언적 코드의 이점(유지보수성, 병렬 처리 안전성)을 강조하며 groupingBy, partitioningBy를 이용한 실무 수준의 데이터 분석 패턴을 제시합니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 pin: true
 image:

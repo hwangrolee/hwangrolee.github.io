@@ -2,17 +2,9 @@
 layout: post
 title: Java Functional Programming - 람다 표현식 및 메서드 참조
 date: 2025-11-29 00:00:00
-description: Java 8 Functional Programming의 핵심인 람다 표현식과 메서드 참조 활용법을 마스터하세요. 익명 클래스에서
-  람다로, 람다에서 메서드 참조로 코드를 간결화하는 과정을 설명하며, 정적, 인스턴스, 임의 객체, 생성자 참조의 네 가지 유형을 구체적인 Java
-  코드로 제시합니다. Stream API에서 선언적인 코드를 작성하고 가독성을 극대화하는 방법을 습득하십시오.
+description: Java 8 Functional Programming의 핵심인 람다 표현식과 메서드 참조 활용법을 마스터하세요. 익명 클래스에서 람다로, 람다에서 메서드 참조로 코드를 간결화하는 과정을 설명하며, 정적, 인스턴스, 임의 객체, 생성자 참조의 네 가지 유형을 구체적인 Java 코드로 제시합니다. Stream API에서 선언적인 코드를 작성하고 가독성을 극대화하는 방법을 습득하십시오.
 tags: [자바]
-keywords: Java 람다, Lambda Expression, 메서드 참조, Method Reference, Java 8, Functional
-  Programming, Stream API, 익명 클래스, Anonymous Class, 함수형 인터페이스, Functional Interface,
-  고차 함수, Higher-Order Function, 선언적 프로그래밍
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/02-01-java-fp-lambda-expression-and-method-reference.png

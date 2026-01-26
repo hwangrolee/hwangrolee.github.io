@@ -2,18 +2,9 @@
 layout: post
 title: Java Functional Programming - 불변성 (Immutability)
 date: 2025-11-20 00:00:00
-description: 자바(Java) Functional Programming의 핵심 설계 원칙인 불변성(Immutability)에 대한 심층 가이드입니다.
-  불변 객체가 고품질 애플리케이션 구축의 필수 요소인 이유를 설명하고, 가변 객체(Mutable Object) 사용 시 발생하는 동시성 문제와 예측
-  불가능성을 명확히 비교합니다. 완벽한 불변 클래스를 설계하기 위한 5가지 필수 원칙(final 클래스, private final 필드, 깊은 복사,
-  방어적 복사)을 구체적인 Java 8+ 코드 예시와 함께 제시합니다. 이를 통해 멀티스레딩 환경에서 스레드 안전성(Thread Safety)을
-  확보하고, Functional Programming의 데이터 변환 패턴(`with*` 메서드)을 활용하는 방법을 습득할 수 있습니다.
-tags: [자바]
-keywords: Java Immutability, 자바 불변성, Functional Programming, 불변 객체 설계, 스레드 안전성, Thread
-  Safety, Immutable Class, Java 8 Stream, final 키워드, 방어적 복사, Defensive Copy, 순수 함수
+description: 자바(Java) Functional Programming의 핵심 설계 원칙인 불변성(Immutability)에 대한 심층 가이드입니다. 불변 객체가 고품질 애플리케이션 구축의 필수 요소인 이유를 설명하고, 가변 객체(Mutable Object) 사용 시 발생하는 동시성 문제와 예측 불가능성을 명확히 비교합니다. 완벽한 불변 클래스를 설계하기 위한 5가지 필수 원칙(final 클래스, private final 필드, 깊은 복사, 방어적 복사)을 구체적인 Java 8+ 코드 예시와 함께 제시합니다. 이를 통해 멀티스레딩 환경에서 스레드 안전성(Thread Safety)을 확보하고, Functional Programming의 데이터 변환 패턴(`with*` 메서드)을 활용하는 방법을 습득할 수 있습니다.
+tags: [자바, 함수형 프로그래밍]
 categories: [Java]
-giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/01-03-java-fp-immutability.png
