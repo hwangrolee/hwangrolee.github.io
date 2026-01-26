@@ -18,9 +18,6 @@ categories: [CATEGORY] # 반드시 1개의 핵심 카테고리만 사용
 tags: [tag1, tag2]
 author: hwangrolee
 description: "SEO 최적화된 요약 설명 (한글 기준 80~120자)"
-image:
-  path: /assets/img/posts/YYYYMMDD/main.png
-  alt: "포스트 제목" # 게시물의 제목과 동일하게 작성
 ---
 
 ```
@@ -30,7 +27,6 @@ image:
 * layout: post 로 고정한다.
 * author: hwangrolee 로 고정한다.
 * categories: 반드시 1개의 카테고리만 대괄호 [] 안에 작성한다. 포스트의 핵심이 되는 대분류 하나만 지정한다.
-* image.alt: 게시물의 제목(title)을 그대로 입력한다.
 * description:
 * 핵심 키워드를 문장 앞부분에 배치한다.
 * 독자가 얻을 이득을 명확히 제시한다.
