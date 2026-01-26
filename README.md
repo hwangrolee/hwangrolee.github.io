@@ -82,3 +82,42 @@ This project is published under [MIT License][license].
 [lib]: https://github.com/cotes2020/chirpy-static-assets
 [vscode]: https://code.visualstudio.com/
 [jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+
+
+## 빌드
+
+```bash
+bundle install
+```
+
+```bash
+bundle exec jekyll build
+```
+
+## 로컬에서 실행
+
+```bash
+bundle exec jekyll serve
+```
+
+## prettier 체크
+
+```bash
+npx prettier . --check
+```
+
+## prettier 수정
+
+```bash
+npx prettier . --write
+```
+
+## 링크 검사
+
+```bash
+# 설치
+brew install lychee
+
+# 실행
+lychee http://localhost:4000
+```
