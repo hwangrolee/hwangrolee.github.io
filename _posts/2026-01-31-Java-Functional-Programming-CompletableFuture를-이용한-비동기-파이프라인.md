@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Functional Programming - CompletableFuture를 이용한 비동기 파이프라인"
-date: 2026-01-31 00:00:00 +0900
+date: 2026-01-31 00:00:00
 categories: [Java]
 tags: [자바, 함수형 프로그래밍]
 author: hwangrolee

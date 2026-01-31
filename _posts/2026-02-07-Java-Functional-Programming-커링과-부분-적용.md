@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Functional Programming - 커링(Currying)과 부분 적용: 다중 인자 함수를 단일 인자 함수들의 연속으로 변환하는 기법"
-date: 2026-02-07 00:00:00 +0900
+date: 2026-02-07 00:00:00
 categories: [Java]
 tags: [자바, 함수형 프로그래밍]
 author: hwangrolee

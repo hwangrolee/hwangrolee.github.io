@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java Functional Programming - Monad 개념 맛보기"
-date: 2026-02-14 00:00:00 +0900
+date: 2026-02-14 00:00:00
 categories: [Java]
 tags: [자바, 함수형 프로그래밍]
 author: hwangrolee
