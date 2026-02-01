@@ -7,7 +7,6 @@ description:
 categories: [Java]
 tags: [자바, 함수형 프로그래밍]
 giscus_comments: true
-pin: true
 ---
 
 > 이 글은 Functional Programming 개념 및 활용법을 자바 기반으로 공부하기 위해 Gemini, Claude의 도움을 받아 작성하였습니다.

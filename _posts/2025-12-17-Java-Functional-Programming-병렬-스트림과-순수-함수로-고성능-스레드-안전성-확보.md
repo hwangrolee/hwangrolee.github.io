@@ -7,7 +7,6 @@ tags: [자바, 함수형 프로그래밍]
 categories: [Java]
 giscus_comments: true
 author: hwangrolee
-pin: true
 image:
   path: /assets/img/Java-Functional-Programming-Achieving-High-Performance-Thread-Safety-with-Parallel-Streams-and-Pure-Functions.png
   alt: "Java Functional Programming - 병렬 스트림과 순수 함수로 고성능 스레드 안전성 확보"

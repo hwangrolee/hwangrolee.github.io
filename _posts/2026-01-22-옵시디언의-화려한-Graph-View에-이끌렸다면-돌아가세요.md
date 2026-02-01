@@ -7,7 +7,6 @@ description: 옵시디언을 처음 접했을 때, 대부분의 사람들은 Gra
 categories: [옵시디언]
 tags: [옵시디언]
 giscus_comments: true
-pin: true
 ---
 
 옵시디언을 처음 접했을 때, 대부분의 사람들은 Graph View에 매혹당하는 것 같다. 나 또한 옵시디언 관련 유튜브 영상에서 보여지는 화려한 Graph View를 보고 나도 저렇게 만들고 싶다는 생각이 든다.

@@ -4,7 +4,6 @@ title: MySQL 트랜잭션 격리수준 Isolation level 알아보기
 date: 2024-12-15 00:00:00
 description: MySQL 트랜잭션 격리수준 Isolation level 알아보기
 tags: [MySQL, 데이터베이스]
-keywords: mysql, 트랜잭션, Isolation Level, 트랜잭션 격리수준, Transaction
 categories: [Database]
 giscus_comments: true
 toc:

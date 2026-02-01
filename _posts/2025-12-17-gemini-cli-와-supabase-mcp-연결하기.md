@@ -2,18 +2,11 @@
 layout: post
 title: Gemini CLI 와 Supabase MCP 연결하기
 date: 2025-12-17 01:00:00
-description: Gemini CLI와 Supabase를 MCP로 연결하는 방법을 단계별로 설명합니다. PostgreSQL 스키마 조회, 마이그레이션
-  파일 관리 자동화, 실무 활용 시 주의사항까지 실제 사용 경험을 바탕으로 정리했습니다.
+description: Gemini CLI와 Supabase를 MCP로 연결하는 방법을 단계별로 설명합니다. PostgreSQL 스키마 조회, 마이그레이션 파일 관리 자동화, 실무 활용 시 주의사항까지 실제 사용 경험을 바탕으로 정리했습니다.
 tags: [AI]
-keywords: Gemini CLI, Supabase MCP, MCP 연결, PostgreSQL 스키마, 데이터베이스 마이그레이션, Supabase
-  설정, Model Context Protocol, AI 개발 도구, Gemini CLI 가이드, Supabase PostgreSQL, MCP 활용,
-  백엔드 개발, 데이터베이스 자동화, Expo Supabase, MCP 한계점
 categories: [AI]
 giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
-pin: true
 image:
   path: /assets/img/gemini-cli-supabase-mcp/gemini-cli-supabase-mcp1.png
   alt: "Gemini CLI 와 Supabase MCP 연결하기"

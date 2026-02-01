@@ -3,20 +3,10 @@ layout: post
 title: '[해결됨] Expo Firebase iOS 빌드 에러: ''non-modular header inside framework module
   RNFBApp'' 해결책 (forceStaticLinking)'
 date: 2025-11-10 00:00:00
-description: '이 글은 Expo 환경에서 @react-native-firebase/app을 연동할 때 발생하는 iOS 빌드 에러(include
-  of non-modular header inside framework module RNFBApp.RCTConvert_FIRApp)에 대한 정확한
-  해결책을 제시합니다. 일반적인 버전 조정이나 클린 빌드로 해결되지 않는 이 문제는 app.json 파일의 expo-build-properties
-  플러그인 설정에 forceStaticLinking 옵션을 추가하여 해결할 수 있습니다. 특히 Expo SDK 54+ 버전과 React Native
-  Firebase 사용 시 useFrameworks: static 설정을 활용할 때 발생하는 iOS 고유의 헤더 모듈 문제를 해결하는 핵심 가이드입니다.
-  개발자들이 이 문제로 시간을 낭비하지 않도록 도와주는 실용적인 개발 팁입니다.'
+description: '이 글은 Expo 환경에서 @react-native-firebase/app을 연동할 때 발생하는 iOS 빌드 에러(include of non-modular header inside framework module RNFBApp.RCTConvert_FIRApp)에 대한 정확한 해결책을 제시합니다. 일반적인 버전 조정이나 클린 빌드로 해결되지 않는 이 문제는 app.json 파일의 expo-build-properties 플러그인 설정에 forceStaticLinking 옵션을 추가하여 해결할 수 있습니다. 특히 Expo SDK 54+ 버전과 React Native Firebase 사용 시 useFrameworks: static 설정을 활용할 때 발생하는 iOS 고유의 헤더 모듈 문제를 해결하는 핵심 가이드입니다. 개발자들이 이 문제로 시간을 낭비하지 않도록 도와주는 실용적인 개발 팁입니다.'
 tags: [App Development, 앱개발]
-keywords: non-modular header inside framework module, RNFBApp.RCTConvert_FIRApp, include
-  of non-modular header, Expo Firebase 연동, Expo iOS build error, react-native-firebase,
-  Expo build properties
 categories: [Mobile]
 giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/expo-firebase-non-modular-header-error.png

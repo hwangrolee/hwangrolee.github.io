@@ -2,11 +2,8 @@
 layout: post
 title: DB 락(Database Lock) 완벽 이해하기 - 개발자라면 꼭 알아야 할 개념
 date: 2025-08-02 00:00:00
-description: 개발자 필수 개념 DB 락(Database Lock) 완벽 가이드. 동시성 문제 해결을 위한 낙관적 락과 비관적 락의 차이,
-  사용 사례, Spring Data JPA 적용법까지 쉽게 설명합니다. 데이터 무결성을 지키는 핵심 원리를 지금 확인하세요.
+description: 개발자 필수 개념 DB 락(Database Lock) 완벽 가이드. 동시성 문제 해결을 위한 낙관적 락과 비관적 락의 차이, 사용 사례, Spring Data JPA 적용법까지 쉽게 설명합니다. 데이터 무결성을 지키는 핵심 원리를 지금 확인하세요.
 tags: [MySQL, 데이터베이스]
-keywords: DB 락, Database Lock, 낙관적 락, 비관적 락, Optimistic Lock, Pessimistic Lock, 동시성
-  제어, 데이터 무결성, SELECT FOR UPDATE, Spring Data JPA
 categories: [Database]
 giscus_comments: true
 toc:

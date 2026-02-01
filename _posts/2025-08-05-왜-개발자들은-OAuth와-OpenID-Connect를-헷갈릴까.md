@@ -2,16 +2,10 @@
 layout: post
 title: 왜 개발자들은 OAuth와 OpenID Connect를 헷갈릴까?
 date: 2025-08-05 00:00:00
-description: 개발자들이 흔히 혼동하는 OAuth 2.0과 OpenID Connect(OIDC)의 차이점을 명확히 설명합니다. 소셜 로그인이
-  OAuth가 아닌 OIDC인 이유, 인증(Authentication)과 권한 위임(Authorization)의 핵심 개념을 알아보고 정확한 기술
-  용어를 사용하세요.
+description: 개발자들이 흔히 혼동하는 OAuth 2.0과 OpenID Connect(OIDC)의 차이점을 명확히 설명합니다. 소셜 로그인이 OAuth가 아닌 OIDC인 이유, 인증(Authentication)과 권한 위임(Authorization)의 핵심 개념을 알아보고 정확한 기술 용어를 사용하세요.
 tags: [Authentication, Authorization, OAuth, OIDC, OpenID Connect, 소셜로그인]
-keywords: OAuth, OIDC, OpenID Connect, 소셜 로그인, 인증, 권한 위임, Authentication, Authorization,
-  ID Token, JWT
 categories: [인증/인가]
 giscus_comments: true
-toc:
-  sidebar: left
 author: hwangrolee
 image:
   path: /assets/img/oauth-vs-openid-connect.png

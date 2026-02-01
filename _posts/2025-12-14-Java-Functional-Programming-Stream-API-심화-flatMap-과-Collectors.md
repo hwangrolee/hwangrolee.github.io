@@ -6,7 +6,6 @@ description: Java 8 이상의 Stream API에서 flatMap과 Collectors를 사용�
 tags: [자바, 함수형 프로그래밍]
 categories: [Java]
 author: hwangrolee
-pin: true
 image:
   path: /assets/img/Java-Functional-Programming-Stream-API-Advanced-flatMap-and-Collectors.jpg
   alt: "Java Functional Programming - Stream API 심화: flatMap과 Collectors"
