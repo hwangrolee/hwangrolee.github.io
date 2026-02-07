@@ -24,17 +24,12 @@ https://developer.apple.com/account 에서 필요한 정보를 알 수 있습니
 
 ### 1. Ceriticates, IDs & Profile에서 세팅정보를 알수 있습니다.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_1.webp" class="img-fluid rounded z-depth-1"
-alt="Ceriticates, IDs & Profile에서 세팅정보를 알수 있습니다."
-title="Ceriticates, IDs & Profile에서 세팅정보를 알수 있습니다."
-%}
+
+![Ceriticates, IDs & Profile에서 세팅정보를 알수 있습니다](assets/img/posts/2024-12-01-apple-login/apple_login_1.webp)
 
 ### 2. Identifiers 탭에서 본인의 identifier를 선택하세요
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_2.webp" class="img-fluid rounded z-depth-1"
-alt="Identifiers 탭에서 본인의 identifier를 선택하세요"
-title="Identifiers 탭에서 본인의 identifier를 선택하세요"
-%}
+![Identifiers 탭에서 본인의 identifier를 선택하세요](assets/img/posts/2024-12-01-apple-login/apple_login_2.webp)
 
 ### 3. Apple ID Prefix = Team ID, Bundle ID = Client ID
 
@@ -42,33 +37,21 @@ Apple ID Prefix는 Team ID 입니다.
 
 Bundle ID는 ClientId 입니다.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_3.webp" class="img-fluid rounded z-depth-1"
-alt="Apple ID Prefix = Team ID, Bundle ID = Client ID"
-title="Apple ID Prefix = Team ID, Bundle ID = Client ID"
-%}
+![Apple ID Prefix = Team ID, Bundle ID = Client ID](assets/img/posts/2024-12-01-apple-login/apple_login_3.webp)
 
 ### 4. 로그인 기능을 활성화하세요.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_4.webp" class="img-fluid rounded z-depth-1"
-alt="로그인 기능을 활성화하세요."
-title="로그인 기능을 활성화하세요."
-%}
+![로그인 기능을 활성화하세요.](assets/img/posts/2024-12-01-apple-login/apple_login_4.webp)
 
 ### 5. Keys 에서 애플 로그인을 위한 서비스를 생성하세요
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_5.webp" class="img-fluid rounded z-depth-1"
-alt="Keys 에서 애플 로그인을 위한 서비스를 생성하세요"
-title="Keys 에서 애플 로그인을 위한 서비스를 생성하세요"
-%}
+![Keys 에서 애플 로그인을 위한 서비스를 생성하세요](assets/img/posts/2024-12-01-apple-login/apple_login_5.webp)
 
 ### 6. key id & private key 를 확인하세요.
 
 Download 버튼을 클릭하면 private key 를 다운받으실 수 있습니다.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_6.webp" class="img-fluid rounded z-depth-1"
-alt="key id & private key 를 확인하세요."
-title="key id & private key 를 확인하세요."
-%}
+![key id & private key 를 확인하세요.](assets/img/posts/2024-12-01-apple-login/apple_login_6.webp)
 
 ### 7. client_secret 을 구해보겠습니다.
 
@@ -119,10 +102,7 @@ ruby client_secret.rb
 https://appleid.apple.com/auth/authorize?response_type=code&client_id={client_id}&redirect_uri={redirect_uri}
 ```
 
-{% include figure.liquid loading="eager" path="assets/img/posts/2024-12-01-apple-login/apple_login_7.webp" class="img-fluid rounded z-depth-1"
-alt="토큰을 구하기 전에 먼저 사용자인증을 통해 code 값을 구합니다."
-title="토큰을 구하기 전에 먼저 사용자인증을 통해 code 값을 구합니다."
-%}
+![토큰을 구하기 전에 먼저 사용자인증을 통해 code 값을 구합니다.](assets/img/posts/2024-12-01-apple-login/apple_login_7.webp)
 
 {: .block-warning }
 
